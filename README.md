@@ -99,3 +99,16 @@ pandas
 matplotlib
 numpy
 ```
+## 🚀 Execution Instructions
+
+To execute the complete end-to-end model training, scheduling, and CIFAR-10-C corruption validation grid evaluation, run the master Python script located in the `code/` directory:
+
+```bash
+python code/03_Final_Project_Code.py
+```
+### What the script does:
+1. **Pipeline Verification:** Assesses local GPU availability and parameters.
+2. **Data Acquisition:** Downloads and provisions CIFAR-10, CIFAR-100, and SVHN datasets.
+3. **Training Iterations:** Builds ResNet-18 architectures and runs classical, Mixup, and GAN-augmented loops under Cosine Annealing.
+4. **Robustness Grid Benchmarking:** Sequentially evaluates saved model checkpoints against the 19 corruptions of the CIFAR-10-C dataset across all 5 severities.
+5. **Output Generation:** Automatically dumps clean metrics and structured summary tables directly into the `results/` workspace folder as `.csv` sheets.
