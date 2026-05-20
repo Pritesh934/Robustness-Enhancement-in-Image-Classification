@@ -1,0 +1,2 @@
+model,mean_corruption_accuracy
+Baseline + GAN synthetic data,72.64684210526316

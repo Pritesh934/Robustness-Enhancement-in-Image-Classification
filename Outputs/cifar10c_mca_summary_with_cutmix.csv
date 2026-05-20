@@ -1,0 +1,4 @@
+model,mean_corruption_accuracy
+Baseline,72.57315789473684
+CutMix(alpha=1.0),67.136
+Mixup(alpha=0.2),72.51484210526316

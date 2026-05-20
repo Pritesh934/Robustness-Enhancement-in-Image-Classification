@@ -1,0 +1,2 @@
+dataset,method,clean_test_accuracy
+CIFAR-10,Baseline + GAN synthetic data,82.79

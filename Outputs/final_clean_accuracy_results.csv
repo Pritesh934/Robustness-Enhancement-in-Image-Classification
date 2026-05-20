@@ -1,0 +1,7 @@
+dataset,method,clean_test_accuracy
+CIFAR-10,Baseline,82.94
+CIFAR-10,Mixup(alpha=0.2),82.41
+CIFAR-100,Baseline,53.83
+CIFAR-100,Mixup(alpha=0.2),53.34
+SVHN,Baseline,93.82298709280884
+SVHN,Mixup(alpha=0.2),93.7077443146896
