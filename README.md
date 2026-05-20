@@ -84,3 +84,18 @@ Robustness Enhancement in Image Classification/
 │
 └── proposal/                      # Project initiation documentation
     └── Project Proposal.pdf       # Original scoping and objective proposal
+```
+
+## ⚙️ Dependencies and Requirements
+
+The execution environment relies on a standard `PyTorch` computer vision pipeline. The code automatically detects and allocates operations to an active CUDA-capable GPU (tested on an NVIDIA Tesla T4 engine via Google Colab).
+
+To run the pipeline locally, ensure you have the following libraries installed:
+
+```text
+torch
+torchvision
+pandas
+matplotlib
+numpy
+```
